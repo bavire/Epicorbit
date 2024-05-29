@@ -90,23 +90,22 @@ input textarea{
     flex-wrap: wrap;
     justify-content: center;
     color: white;
-    background-image: url(./w);
+    background-image: url(./assets/);
     background-size: cover;
     transition: transparent;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
     
     
 }
 .tree{
-    text-align: center;
+    text-align: block;
     margin: 70px;
     padding: 80px;
     color:white;
     display: flex;
     flex-wrap: wrap;
-
-
-    
-
+    font-size: medium;
     
 
 }
@@ -115,6 +114,7 @@ input textarea{
     height: 200px;
     border-radius: 200px;
     margin-bottom: 150px;
+    padding: 0 40px;
 }
 .tree {
     display: block;
