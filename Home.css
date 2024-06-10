@@ -120,11 +120,11 @@ input textarea{
 .tree{
     text-align: center;
     margin: 70px;
-    /* padding: 80px; */
+    padding: 80px;
     color:white;
     display: flex;
     flex-wrap: wrap;
-    font-size: medium;
+    
     
 
 }
@@ -132,7 +132,7 @@ input textarea{
     width: 200px;
     height: 200px;
     border-radius: 200px;
-    /* margin-bottom: 150px; */
+    
 }
 .tree {
     display: block;
