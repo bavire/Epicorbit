@@ -26,12 +26,12 @@ nav ul{
 }
 nav li{
 
-    margin: 10px 15px;
+    
     margin:15px 15px;
-    margin:15px 15px;
+  
 }
 nav a{
-    color: rgb(238, 127, 9);
+    color: rgb(245, 128, 4);
     text-decoration: none;
 }
 .oreo{
@@ -148,21 +148,25 @@ form{
     transition: transparent;
     border-radius: 30px;
     box-shadow: 0 0 10px rgb(0, 0, 0);
-    color: aliceblue;
+    color: rgb(234, 234, 231);
+    
 }
 
 label{
     display:flex;
     margin-bottom: 5px;
     font-size: small;
-    color: #eae0e0;
+    color: #f3f1f1;
+}
+.form-groups{
+  color: #bbf209;
 }
 .group{
     justify-content: space-evenly;
     flex-direction: row;
     display: flex;
     flex-wrap: wrap;
-    color: rgb(185, 211, 14);
+    color: #bbf209
 }
 .type{
   text-decoration: none;
@@ -180,12 +184,11 @@ label{
 
 footer{
     background-color: black;
-    color: rgb(238, 174, 12);
-    padding: 10px;
+    color: rgb(245, 128, 4);
+    padding: 20px;
     text-align: center;
     clear: both;
-    padding: 5px;
-    clear: left;
+    
 }
 
 /* reg */
