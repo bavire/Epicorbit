@@ -41,7 +41,7 @@ nav a{
     height: 90vh;
     display: flex;
     justify-content: center;
-    color:rgb(237, 237, 228);
+    color:rgb(0, 0, 0);
     align-items: center;
 
 }
@@ -52,9 +52,9 @@ nav a{
 }
 .button{
     text-decoration: none;
-    color: white;
+    color: rgb(3, 3, 3);
     display: inline-block;
-    background-color: black;
+    background-color:chartreuse;
     padding: 10px 20px;
     border-radius:10px ;
 }
@@ -66,7 +66,7 @@ nav a{
     background-repeat: no-repeat;
     padding: 10px 0;
     text-align: center;
-    color:rgb(247, 240, 240);
+    color:rgb(217, 228, 5);
     background-position: center;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     
@@ -82,7 +82,7 @@ nav a{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    color: black;
+    color: rgb(229, 241, 0);
     margin-bottom: 20%;
     
     
@@ -93,7 +93,7 @@ nav a{
     margin: 150px;
     text-align: center;
     justify-content: center;
-    color:white;
+    color:rgb(217, 255, 0);
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
 }
@@ -137,8 +137,9 @@ nav a{
     background-size: cover;
     height: 100vh;
     font-size:large;
-
+    color: #ecefef;
 }
+
 
 form{
     max-width:500px ;
@@ -146,29 +147,33 @@ form{
     padding:50px ;
     transition: transparent;
     border-radius: 30px;
-    box-shadow: 0 0 10px rgb(0 0 5);
+    box-shadow: 0 0 10px rgb(0, 0, 0);
     color: aliceblue;
-   
-
-    
 }
-/* .form-group{
-    
-    color: aliceblue;
-    
-} */
+
 label{
     display:flex;
     margin-bottom: 5px;
     font-size: small;
-
-
+    color: #eae0e0;
 }
 .group{
     justify-content: space-evenly;
     flex-direction: row;
     display: flex;
     flex-wrap: wrap;
+    color: rgb(185, 211, 14);
+}
+.type{
+  text-decoration: none;
+  color: rgb(230, 214, 214);
+  display: inline-block;
+  background-color: rgb(255, 10, 10);
+  padding: 10px 20px;
+  border-radius:10px ;
+  font-weight:bolder;
+
+
 }
 
 /* footer */
