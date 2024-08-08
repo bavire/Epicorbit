@@ -37,11 +37,12 @@ nav a{
 .oreo{
     background-image: url(./assets/wp.webp);
     background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
     height: 90vh;
     display: flex;
     justify-content: center;
-    color:rgb(0, 0, 0);
+    color:cyan;
     align-items: center;
 
 }
@@ -101,32 +102,21 @@ nav a{
     width: 150px;
     height: 150px;
     border-radius: 30%;
-    margin-bottom: 30px;
-    
+    margin-bottom: 30px;   
 }
+
 /* Animation */
 .videos{
-    background-image:url(./assets/wp9060262.webp);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    text-align: center;
-    padding: 15px 0;
-    color: rgb(6, 139, 255);
-   justify-content: center;
+background-image: url(./assets/wp9060262.webp);
+background-size: cover;
+background-repeat: no-repeat;
+padding: 10px 0;
+text-align: center;
+color:rgb(217, 228, 5);
+background-position: center;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-/* .video-content{
-    align-items: center;
-    margin-bottom: 50%;
-    padding: 40px 0;
-}
-.video{
-    justify-content: center;
-    margin-bottom: 30%;
-    margin: 50px;
-    color: aliceblue;
-    align-items: center;
-} */
+
 
 /* Contact */
 .contact{
