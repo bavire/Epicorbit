@@ -148,6 +148,10 @@ label{
     font-size: small;
     color: #f3f1f1;
 }
+.form-query input{
+  padding-right: 200px;
+  padding-bottom: 100px;
+}
 .form-groups{
   color: #bbf209;
 }
@@ -181,7 +185,7 @@ footer{
     
 }
 
-/* reg */
+/* LOGIN */
 * {
   margin: 0;
   padding: 0;
@@ -393,3 +397,14 @@ footer{
 .box form input[type="button"]:active {
   opacity: 0.8;
 }
+.button1{
+  text-decoration: none;
+  color: rgb(255, 254, 254);
+  display: inline-block;
+  background-color:rgb(248, 92, 92);
+  padding: 10px 20px;
+  border-radius:10px ;
+
+}
+
+
